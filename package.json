@@ -1,0 +1,35 @@
+{
+  "name": "penguin-inplace",
+  "version": "0.0.0",
+  "description": "A simple contenteditable component for penguin.",
+  "module": "index.js",
+  "scripts": {
+    "prepublishOnly": "rollup -c rollup.config.js -o index.js src/index.js",
+    "watch": "rollup -w -c rollup.config.js -o index.js src/index.js",
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "Dominik Burgdörfer <db@domachine.de> (https://domachine.de/)",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.41.4",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^3.2.2",
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "he": "^1.1.1",
+    "xtend": "^4.0.1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domachine/penguin-inplace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domachine/penguin-inplace/issues"
+  },
+  "homepage": "https://github.com/domachine/penguin-inplace#readme"
+}
