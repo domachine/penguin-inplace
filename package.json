@@ -1,6 +1,6 @@
 {
   "name": "penguin-inplace",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple contenteditable component for penguin.",
   "module": "index.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "watch": "rollup -w -c rollup.config.js -o index.js src/index.js",
     "test": "standard"
   },
-  "keywords": ["penguinjs", "penguinjs-component"],
+  "keywords": [
+    "penguinjs",
+    "penguinjs-component"
+  ],
   "author": "Dominik Burgdörfer <db@domachine.de> (https://domachine.de/)",
   "license": "MIT",
   "devDependencies": {
