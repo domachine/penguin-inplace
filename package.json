@@ -1,6 +1,6 @@
 {
   "name": "penguin-inplace",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple contenteditable component for penguin.",
   "module": "index.js",
   "scripts": {
