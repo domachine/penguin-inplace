@@ -2,7 +2,7 @@
 
 ## Installation
 
-	$ npm i -S penguin-filestack
+	$ npm i -S penguin-inplace
 
 Then edit your `package.json` file to include the component.
 
